@@ -1,0 +1,29 @@
+.MuiStepConnector-line {
+  display: none !important;
+}
+
+.MuiStepConnector-root {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.349);
+  border-top: 4px dotted rgba(0, 0, 0, 0.349);
+  color: white;
+  background-color: white;
+  height: 1px;
+}
+
+.MuiStepConnector-active,
+.MuiStepConnector-completed {
+  border: none;
+  background-color: #45bfb8;
+  border-top: 4px dotted #45bfb8;
+  color: white;
+  background-color: white;
+  height: 1px;
+}
+
+.MuiStep-alternativeLabel {
+  overflow: visible;
+}
+.MuiStep-horizontal {
+  overflow: visible;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/*  Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.redColor{
+    color:#FF0000 !important;
+    padding-left: 5px;
+}
+
+.greenColor{
+    color:#09A404 !important;
+        padding-left: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
