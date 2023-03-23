@@ -1,8 +1,6 @@
 # STICKY
     A MERN Stack Ecommerce website for stickers. 
 
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
-
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
